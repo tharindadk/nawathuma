@@ -1,0 +1,288 @@
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 940px;
+	margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.logo {
+    margin-left: 75px;
+    font-size: 30px;
+    float: left;
+    color: white;
+    font-family: Helvetica;
+}
+
+.logo-button {
+    color: white;
+}
+
+.navigation-bar {
+    margin-right: 60px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.nav-list {
+    display: inline;
+    padding: 14px 16px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #F7B733;
+}
+
+.home-banner {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    margin-bottom: 30px;
+}
+
+.banner-text {
+    background-color: #F7B733;
+    color: black;
+    font-size: 70px;
+    font-family: Bradley Hand, cursive;
+}
+
+#bannerh1 {
+    font-family: Bradley Hand, cursive;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 90px;
+    color: #000;  
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F7B733;
+}
+
+#tdh2 {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3.contact-grid-heading {
+    text-align: center;
+}
+
+h3.packageh3 {
+    text-align: center;
+}
+
+h4 {
+    margin: 0px 0px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-destinations-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.place-image {
+	border-radius: 5px;
+	box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+	transition: all ease-in-out .2s;
+}
+
+.place-image:hover {
+	filter: brightness(.75);
+	box-shadow: 0 8px 12px 0 rgba(34, 60, 80, .16);
+}
+
+.place-image-wrapper {
+	justify-self: center;
+	padding: 4%;
+	position: relative;
+    text-align: center;
+}
+
+.place-image-wrapper:hover > h4 {
+	visibility: visible;
+}
+
+.place-image-wrapper > h4 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	visibility: hidden;
+	z-index: 2;
+	transition: all ease-in-out .2s;
+}
+
+li.about-list {
+    list-style-type: square;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+
+a {
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.places-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.place-card {
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: #DFDCE3;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.place-card:hover {
+    background-color: black;
+    color: #F7B733;
+}
+
+.about-image {
+    text-align: center;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.payment-method {
+    padding-right: 40px;
+    border-right: #000 solid;
+}
+
+.contact-links {
+    padding-left: 40px;
+    border-left: #000 solid;
+}
+
+.place-photo {
+    text-align: center;
+}
+
+.packages {
+    padding-inline-start: 0px;
+}
+
+.packages-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-self: center;
+}
+
+.package-details {
+	justify-self: left;
+    width: 400px;
+    height: 280px;
+    border-style: solid;
+    list-style-type: none;
+    margin: auto auto;
+    background-color: #DFDCE3;
+    border-radius: 12px;
+}
+
+button {
+    color: white;
+    margin-left: 90px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F7B733;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: black;
+    color: #F7B733;
+}
+
+.formtable {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+td {
+    padding: 12px;
+}
+
+input {
+    width: 90%;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.submitform {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color: #DFDCE3;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 10px 10px 10px 10px;
+}
+
+.submitbutton {
+    margin-top: 10px;
+    margin-left: 190px;
+}
+
+.realform {
+    padding: 10px;
+}
+
+.submitted-image {
+    text-align: center;
+}
+
+.payment-button {
+    margin-left: 350px;
+}

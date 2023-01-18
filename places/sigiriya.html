@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+    <head>
+
+        <title>Sigiriya - Packages</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link href="../css/style.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="navigation-bar">
+            <nav role="navigation" aria-label="main menu">
+                <div class="logo">
+                    <a class="logo-button" href="../"><b>Nawathuma</b></a>
+                </div>
+                <ul class="nav-bar">
+                    <li class="nav-list"><a class="nav-link" href="../">Home</a></li>
+                    <li class="nav-list"><a class="nav-link" href="../places/">Places</a></li>
+                    <li class="nav-list"><a class="nav-link" href="../about/">About</a></li>
+                    <li class="nav-list"><a class="nav-link" href="../contact/">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <h1>Sigiriya</h1> 
+            <h2>Eighth Wonder of the World</h2>  
+            <hr>
+
+            <div class="place-photo">
+                <img src="../images/sigiriya_place.jpg" alt=""
+                    width="656" height="260">
+            </div>
+            
+            <div class="place-description">
+                <p>
+                    Referred by locals as the Eighth Wonder of the World
+                    this ancient palace and fortress complex has significant
+                    archaeological importance and attracts thousands of
+                    tourists every year.<br>
+                    The palace is located in the heart of the island between
+                    the towns of Dambulla and Habarane on a massive rocky
+                    plateau 370 meters above the sea level. Sigiriya rock plateau,
+                    formed from magma of an extinct volcano, is 200 meters higher
+                    than the surrounding jungles.
+                </p>
+            </div>
+    
+            <ul class="packages">
+
+                <div class="packages-list">
+                    <div class="package-details">
+                        <li>
+                            <h3 class="packageh3">1 Day Package</h3>
+                                <ul>
+                                    <li>Maximum 10 people</li>
+                                    <li>Lunch provided</li><br>
+                                    <b>Price: LKR 15,000</b><br><br>
+                                    <form action="../booking/form.php" method="post">
+                                        <input type=hidden name="package" value="Sigiriya 1 Day Package">
+                                        <input type=hidden name="price" value="LKR 15,000">
+                                        <button class="bookbuttons">Book Now</button>
+                                    </form>
+                                </ul>
+                        </li>
+                    </div>  
+                       
+                    <div class="package-details">
+                        <li>
+                            <h3 class="packageh3">2 Day Package</h3>
+                                <ul>
+                                    <li>Maximum 10 people</li>
+                                    <li>Breakfast, Lunch & Dinner provided</li>
+                                    <li>Accommodations at Sigiriya Nature Resort</li>
+                                    <li>AC/Non-AC Rooms</li>
+                                    <li>Wifi</li><br>
+                                    <b>Price: LKR 35,000</b><br><br>
+                                    <form action="../booking/form.php" method="post">
+                                        <input type=hidden name="package" value="Sigiriya 2 Day Package">
+                                        <input type=hidden name="price" value="LKR 35,000">
+                                        <button class="bookbuttons">Book Now</button>
+                                    </form>
+                                </ul>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </body>
+</html>
